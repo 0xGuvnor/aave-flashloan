@@ -5,7 +5,7 @@ def main():
     """
     Runs the get_weth function to get WETH
     """
-    get_weth(0.02)
+    get_weth(0.01)
 
 
 def get_weth(value=1):
