@@ -26,9 +26,8 @@ networks:
   mainnet:
     aave_lending_pool_v2: "0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5"
     weth: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
-  polygon-test:
-    aave_lending_pool_v2: "0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5"
-    weth: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+  polygon-test-dev:
+    aave_lending_pool_v2: "0x9198F13B08E299d85E096929fA9781A1E3d5d827"
+    weth: "0x3C68CE8504087f89c640D02d133646d98e64ddd9"
 wallets:
   from_key: ${PRIVATE_KEY}
-  from_mnemonic: ${MNEMONIC}
